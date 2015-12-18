@@ -1,4 +1,4 @@
-package com.swacorp.model;
+package name.davidwbrown.model;
 
 public class User {
 

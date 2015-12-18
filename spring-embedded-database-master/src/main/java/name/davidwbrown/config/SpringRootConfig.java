@@ -1,7 +1,4 @@
-package com.swacorp.config;
-
-import javax.annotation.PostConstruct;
-import javax.sql.DataSource;
+package name.davidwbrown.config;
 
 import org.hsqldb.util.DatabaseManagerSwing;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +7,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
-@ComponentScan({ "com.swacorp" })
+import javax.annotation.PostConstruct;
+import javax.sql.DataSource;
+
+@ComponentScan({ "name.davidwbrown" })
 @Configuration
 public class SpringRootConfig {
 

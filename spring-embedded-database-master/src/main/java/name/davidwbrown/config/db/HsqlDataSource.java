@@ -1,4 +1,4 @@
-package com.swacorp.config.db;
+package name.davidwbrown.config.db;
 
 import javax.sql.DataSource;
 

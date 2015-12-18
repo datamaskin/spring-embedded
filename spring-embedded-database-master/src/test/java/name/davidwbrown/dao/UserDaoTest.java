@@ -1,4 +1,4 @@
-package com.swacorp.dao;
+package name.davidwbrown.dao;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -9,7 +9,7 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabase;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
-import com.swacorp.model.User;
+import name.davidwbrown.model.User;
 
 public class UserDaoTest {
 

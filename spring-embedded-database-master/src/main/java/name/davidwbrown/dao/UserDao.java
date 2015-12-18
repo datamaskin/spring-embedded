@@ -1,8 +1,8 @@
-package com.swacorp.dao;
+package name.davidwbrown.dao;
+
+import name.davidwbrown.model.User;
 
 import java.util.List;
-
-import com.swacorp.model.User;
 
 public interface UserDao {
 

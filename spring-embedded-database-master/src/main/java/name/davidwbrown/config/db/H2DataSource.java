@@ -1,8 +1,4 @@
-package com.swacorp.config.db;
-
-import java.sql.SQLException;
-
-import javax.sql.DataSource;
+package name.davidwbrown.config.db;
 
 import org.h2.tools.Server;
 import org.springframework.context.annotation.Bean;
@@ -11,6 +7,9 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabase;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
+
+import javax.sql.DataSource;
+import java.sql.SQLException;
 
 @Profile("h2")
 @Configuration

@@ -1,12 +1,12 @@
-package com.swacorp.servlet3;
+package name.davidwbrown.servlet3;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
+import name.davidwbrown.config.SpringWebConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import com.swacorp.config.SpringRootConfig;
-import com.swacorp.config.SpringWebConfig;
+import name.davidwbrown.config.SpringRootConfig;
 
 public class MyWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 

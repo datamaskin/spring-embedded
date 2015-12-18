@@ -1,4 +1,4 @@
-package com.swacorp.config;
+package name.davidwbrown.config;
  
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.JstlView;
  
 @EnableWebMvc
 @Configuration
-@ComponentScan({ "com.swacorp.web" })
+@ComponentScan({ "name.davidwbrown.web" })
 public class SpringWebConfig extends WebMvcConfigurerAdapter {
  
 	@Override
